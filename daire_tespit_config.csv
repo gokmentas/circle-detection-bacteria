@@ -1,0 +1,22 @@
+#-------------------------------
+# varsayılan ayarlar
+#-------------------------------
+
+# kamera degerleri
+camera_id = 2
+camera_width = 1920
+camera_height = 1080
+camera_frame_rate = 30
+#camera_fourcc = cv2.VideoWriter_fourcc(*"YUYV")
+camera_fourcc = cv2.VideoWriter_fourcc(*"MJPG")
+
+# oto olcum mouse eventleri
+auto_percent = 0.2 
+auto_threshold = 127
+auto_blur = 5
+
+# normalizasyon mouse eventleri
+norm_alpha = 0
+norm_beta = 254
+
+
